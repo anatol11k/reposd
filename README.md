@@ -32,6 +32,7 @@ swap used 1847296
 swap free 2221129728
 
 
+
 $python3 got_metrics.py cpu
 
 CPU:
@@ -42,3 +43,12 @@ system.cpu.guest 0.0
 systemc.cpu.iowait 2.96
 systemc.cpu.stolen 0.0
 system.cpu.system 36.33
+
+
+DOCKER
+Script can be run under docker container.
+https://hub.docker.com/repository/docker/anatol11k/metrics
+
+RUN
+docker run -t --rm tolkol/metrics:v1 mem
+docker run -t --rm tolkol/metrics:v1 cpu
