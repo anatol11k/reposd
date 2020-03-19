@@ -52,6 +52,8 @@ https://hub.docker.com/repository/docker/anatol11k/metrics
 
 RUN
 
+docker pull anatol11k/metrics
+
 docker run -t --rm tolkol/metrics:v1 mem
 
 docker run -t --rm tolkol/metrics:v1 cpu
