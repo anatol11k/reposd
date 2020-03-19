@@ -32,7 +32,6 @@ swap used 1847296
 swap free 2221129728
 
 
-
 $python3 got_metrics.py cpu
 
 CPU:
