@@ -13,7 +13,8 @@ Requirements
 
 Installation
 
-git clone https://github.com/anatol11k/master
+git clone https://github.com/anatol11k/reposd.git
+
 pip install psutil
 
 Examples
@@ -29,6 +30,7 @@ virtual shared 7729152
 swap total 2222977024
 swap used 1847296
 swap free 2221129728
+
 
 
 $python3 got_metrics.py cpu
